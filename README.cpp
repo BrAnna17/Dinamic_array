@@ -71,7 +71,7 @@ int main()
 		{
 			if (*third[j + 1].k < *third[j].k)
 			{
-				struct NewMass tmp = third[j + 1];
+			        NewMass tmp = third[j + 1];
 				third[j + 1] = third[j];
 				third[j] = tmp;
 			}
